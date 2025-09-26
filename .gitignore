@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+# Ignorar SOLO RData dentro de Presentaciones
+Presentaciones/*.RData
