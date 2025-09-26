@@ -201,7 +201,7 @@ $$
 Para estimar $\rho$ no se tiene una solución exacta, pero se puede obtar por dos metodos:
 
 1.  Scoring Fisher: $\mathcal{I}_{{\rho}{\rho}}=\text{tr}(\mathbf{A}^{-1}\mathbf{W})^2+\text{tr}(\mathbf{W}\mathbf{A} ^{-1})^\top(\mathbf{W}\mathbf{A}^{-1})+(\mathbf{W}\mathbf{A}^{-1}\mathbf{X}\boldsymbol{\beta})(\mathbf{W}\mathbf{A}^{-1}\mathbf{X}\boldsymbol{\beta})$
-2.  Máximización directa $\hat{\rho}=\mbox{argmax}_{\rho\in(-1,1)}\left\{\ln\vert \mathbf{A}\vert-\frac{1}{2}\pmb{\epsilon}^\top\pmb{\epsilon}\right\}$
+2.  Máximización directa $\hat{\rho}=\mbox{argmax}_{\rho\in(-1,1)}\left(\ln\vert \mathbf{A}\vert-\frac{1}{2}\pmb{\epsilon}^\top\pmb{\epsilon}\right)$
 :::
 
 ::: callout-caution
