@@ -4,3 +4,4 @@
 .Ruserdata
 # Ignorar SOLO RData dentro de Presentaciones
 Presentaciones/*.RData
+Presentaciones/Shape/
