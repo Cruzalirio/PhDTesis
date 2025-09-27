@@ -384,7 +384,7 @@ summary(HomSARAR)
 
     -   Trabajo teórico avanzado con articulos publicados y preprints en el área. @toloza-delgado2025, @azcarate-romero2025
 
-    -   Software Estadístico, con un paquete en R [spatemR](https://cran.r-project.org/web/packages/spatemR/index.html)
+    -   Software Estadístico, con un paquete en R: [spatemR](https://cran.r-project.org/web/packages/spatemR/index.html)
 
     -   Un preprint con pronóstico de datos faltantes espaciales @tobar2025.
     :::
@@ -406,7 +406,7 @@ summary(HomSARAR)
 
 -   Un preprint de estadística espacio temporal en revisión @cruz2025.
 
--   Una tesis de maestría dirigida sobre el tema en la Universidad Central, ***Desarrollo de un modelo predictivo con técnicas de inteligencia artificial que permita la identificación de municipios en riesgo de deforestación mediante la incorporación de variables socioeconómicas espaciales***
+-   Una tesis de maestría dirigida sobre el tema en la Universidad Central, ***Desarrollo de un modelo predictivo con técnicas de inteligencia artificial que permita la identificación de municipios en riesgo de deforestación mediante la incorporación de variables socioeconómicas espaciales.***
 :::
 
 ## Objetivo general
