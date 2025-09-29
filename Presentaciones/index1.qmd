@@ -11,7 +11,7 @@ author:
         
 format: 
   revealjs:
-    theme: serif #dracula.scss
+    theme: solarized #dracula.scss
     fontsize: 2.0em
 embed-resources: true
 lang: ES
@@ -215,11 +215,11 @@ Demuestra $\mathcal{I}_{{\rho}{\rho}}$ está bien calculada, además que es posi
 ::: callout-note
 ## MLE
 
--   Los estimadores obtenidos por máxima verosimilitud son asintoticamente normales.[@theoryo1998]. [@spatialreg]
+-   Los estimadores obtenidos por máxima verosimilitud son asintoticamente insesgados, consistentes y normales su los supuestos son ciertos[@theoryo1998]. [@spatialreg]
 
--   Sí el supuesto de normalidad no se cumple, [@lee2004] demuestra que aún siguen siendo normales.
+-   Sí el supuesto de normalidad no se cumple, [@lee2004] demuestra que aún siguen siendo normales, pero su varianza asintotica cambia.
 
--   Sí el supuesto de homocedasticidad no se cumple, [@kelejian2010] lo soluciona.
+-   Sí el supuesto de homocedasticidad no se cumple, [@kelejian2010] encuentra un estimador robusto con mejor desempeño que el OLS usual. [@sphet]
 
 -   Sí se quiere modelar la varianza, [@toloza-delgado2025] permite estimar los componentes de varianza. [@spatemR]
 :::
@@ -290,94 +290,6 @@ summary(HomSARAR)
 
 # Bloque 2: Plan Docente
 
-::: callout-note
-## Curso
-
-Modelos Estadísticos y de Aprendizaje Automático para datos Espacio-Temporales
-:::
-
-::: callout-tip
-## Introducción
-
--   Qué es autocorrelación: valores cercanos tienden a ser similares
--   Tipos:
-    -   Temporal: series de precios, temperatura diaria
-    -   Espacial: deforestación, crimen por vecindario
-    -   Espacio temporal: Combinación de las anteriores.
--   Importancia en análisis de datos georreferenciados. Manejo de mapas en R, Python y GIS.
-:::
-
-# Modelos estadísticos
-
-::: callout-important
-## Espaciales
-
--   Estructuras de autocorrelación espacial.
--   Modelos SAR y SEM: capturan dependencia entre ubicaciones
--   Concepto de matriz de pesos espaciales (W)
--   Interpretación: impactos directos e indirectos
--   Aplicaciones: predicción de fenómenos geográficos y socioeconómicos
-:::
-
-::: callout-warning
-## Temporales (Recordatorio de Series de Tiempo)
-
--   Autoregresión temporal: persistencia en el tiempo. AR, MA, ARMA y extensiones
--   Estructuras de autocorrelación temporal, ACF y PACF.
-:::
-
-# Modelos estadísticos
-
-::: callout-tip
-## Espacio-temporales
-
--   Correlación espacial, regularización, validación espacial y temporal
--   **SARAR temporal:** captura dependencia tanto en variable dependiente como en perturbaciones a través del tiempo y espacio
--   **SAR heterocedástico para datos de panel:** maneja varianza no constante en observaciones espaciales y temporales
--   **GEE espaciales y semiparamétricos:** para estructuras de correlación complejas
-:::
-
-# Machine Learning
-
-::: callout-tip
--   **Métodos clásicos adaptados:**
-    -   **Random Forest espacio-temporal:** incorpora covariables espaciales y dependencias temporales
--   **Avances en redes neuronales:**
-    -   **Convolutional LSTM y CNN para datos georreferenciados:** integran información espacial y temporal
-    -   **Spatio-Temporal Deep Learning:** combina redes recurrentes y convolucionales para predicción de series geoespaciales
-:::
-
-# Evaluación del curso
-
-::: callout-important
-## Evaluaciones presenciales
-
--   **Prueba 1 (20%)**
-    -   Evaluación computacional sobre conceptos básicos espaciales y temporales
-    -   Resolución de ejercicios con R o Python
--   **Prueba 2 (20%)**
-    -   Evaluación computacional sobre modelos espacio-temporales y ML
-    -   Interpretación de resultados y análisis de impactos
-:::
-
-::: callout-tip
-## Proyecto
-
--   **Proyecto final (60%)**
-    -   Aplicación práctica a un dataset real.
-    -   Lectura de artículos científicos en el área
-    -   Combinar teoría de modelos clásicos con métodos de ML
-    -   Análisis reproducible, predicciones y visualización (mapas de riesgo)
-:::
-
-# Bibliografía clave
-
--   Anselin, L. (1988). *Spatial Econometrics: Methods and Models.*
--   Cressie, N. (1993). *Statistics for Spatial Data.*
--   Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning.*
--   Guignard, F. (2022). *On Spatio-Temporal Data Modelling and Uncertainty Quantification Using Machine Learning and Information Theory*.
--   Wickle, C. & Zammit-Mangion, A. (2023) *Statistical Deep Learning for Spatial and Spatiotemporal Data*
-
 ## Formación básica
 
 ::: callout-note
@@ -387,7 +299,7 @@ Modelos Estadísticos y de Aprendizaje Automático para datos Espacio-Temporales
 
 -   **Fundamentos teóricos**: Probabilidad y estadística en pregrado de estadística y matemáticas.
 
--   **Estadística teórica y aplicada**: Análisis estadístico de datos espaciotemporales
+-   **Aplicaciones**: Muestreo y análisis de datos en biología y ciencias agrícolas.
 
 -   **Enfoque pedagógico**: Rigor teórico + aplicaciones prácticas; metodologías activas y proyectos interdisciplinarios.
 :::
@@ -529,25 +441,26 @@ Desarrollar e implementar **modelos estadísticos espacio-temporales robustos** 
 
 ## Contribución a los fines misionales
 
--   **Contribuir a la unidad nacional y su vinculación internacional**
+1.  **Contribuir a la unidad nacional y su vinculación internacional**
     -   Mis proyectos sobre deforestación municipal generan conocimiento que puede ser aplicado en políticas públicas nacionales e integrarse en redes internacionales de investigación ambiental.
--   **Crear y asimilar críticamente el conocimiento**
+2.  **Crear y asimilar críticamente el conocimiento**
     -   Desarrollo de modelos SAR, GAMLSS y GSAR para análisis espacial avanzado, generando nuevo conocimiento metodológico aplicable a problemas reales de Colombia.
 
 ## Contribución a los fines misionales
 
--   **Formar profesionales e investigadores con conciencia crítica**
+1.  **Formar profesionales e investigadores con conciencia crítica**
     -   Integración de teoría estadística, programación y análisis reproducible en pregrado y posgrado.
     -   Preparación de estudiantes para liderar investigaciones y proyectos de política ambiental.
--   **Estudiar y enriquecer el patrimonio natural y contribuir a su conservación (Apoyo a la sociedad y al Estado)**
+2.  **Estudiar y enriquecer el patrimonio natural y contribuir a su conservación**
     -   Análisis espacial de deforestación que permite identificar zonas críticas y generar mapas de riesgo para la toma de decisiones ambientales.
 
 ## Contribución a los fines misionales
 
--   **Propender por el desarrollo personal y académico de la comunidad**
+1.  **Propender por el desarrollo personal y académico de la comunidad**
     -   Uso de metodologías activas, software libre y recursos abiertos para fortalecer capacidades analíticas y de investigación en estudiantes.
+2.  **Apoyo a la sociedad y al Estado**
     -   Generación de herramientas estadísticas y mapas de riesgo que sirven para asesoría en políticas públicas y toma de decisiones en gestión ambiental.
--   **Fomentar la interdisciplinariedad y la cooperación**
+3.  **Fomentar la interdisciplinariedad y la cooperación**
     -   Vinculación de estudiantes y grupos de investigación con proyectos interinstitucionales y redes académicas internacionales en estadística aplicada y medio ambiente.
 
 ## Bibliografía

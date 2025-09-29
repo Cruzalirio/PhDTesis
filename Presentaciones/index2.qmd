@@ -11,7 +11,7 @@ author:
         
 format: 
   revealjs:
-    theme: solarized #dracula.scss
+    theme: serif #dracula.scss
     fontsize: 2.0em
 embed-resources: true
 lang: ES
@@ -215,11 +215,11 @@ Demuestra $\mathcal{I}_{{\rho}{\rho}}$ está bien calculada, además que es posi
 ::: callout-note
 ## MLE
 
--   Los estimadores obtenidos por máxima verosimilitud son asintoticamente insesgados, consistentes y normales su los supuestos son ciertos[@theoryo1998]. [@spatialreg]
+-   Los estimadores obtenidos por máxima verosimilitud son asintoticamente normales.[@theoryo1998]. [@spatialreg]
 
--   Sí el supuesto de normalidad no se cumple, [@lee2004] demuestra que aún siguen siendo normales, pero su varianza asintotica cambia.
+-   Sí el supuesto de normalidad no se cumple, [@lee2004] demuestra que aún siguen siendo normales.
 
--   Sí el supuesto de homocedasticidad no se cumple, [@kelejian2010] encuentra un estimador robusto con mejor desempeño que el OLS usual. [@sphet]
+-   Sí el supuesto de homocedasticidad no se cumple, [@kelejian2010] lo soluciona.
 
 -   Sí se quiere modelar la varianza, [@toloza-delgado2025] permite estimar los componentes de varianza. [@spatemR]
 :::
@@ -529,26 +529,25 @@ Desarrollar e implementar **modelos estadísticos espacio-temporales robustos** 
 
 ## Contribución a los fines misionales
 
-1.  **Contribuir a la unidad nacional y su vinculación internacional**
+-   **Contribuir a la unidad nacional y su vinculación internacional**
     -   Mis proyectos sobre deforestación municipal generan conocimiento que puede ser aplicado en políticas públicas nacionales e integrarse en redes internacionales de investigación ambiental.
-2.  **Crear y asimilar críticamente el conocimiento**
+-   **Crear y asimilar críticamente el conocimiento**
     -   Desarrollo de modelos SAR, GAMLSS y GSAR para análisis espacial avanzado, generando nuevo conocimiento metodológico aplicable a problemas reales de Colombia.
 
 ## Contribución a los fines misionales
 
-1.  **Formar profesionales e investigadores con conciencia crítica**
+-   **Formar profesionales e investigadores con conciencia crítica**
     -   Integración de teoría estadística, programación y análisis reproducible en pregrado y posgrado.
     -   Preparación de estudiantes para liderar investigaciones y proyectos de política ambiental.
-2.  **Estudiar y enriquecer el patrimonio natural y contribuir a su conservación**
+-   **Estudiar y enriquecer el patrimonio natural y contribuir a su conservación (Apoyo a la sociedad y al Estado)**
     -   Análisis espacial de deforestación que permite identificar zonas críticas y generar mapas de riesgo para la toma de decisiones ambientales.
 
 ## Contribución a los fines misionales
 
-1.  **Propender por el desarrollo personal y académico de la comunidad**
+-   **Propender por el desarrollo personal y académico de la comunidad**
     -   Uso de metodologías activas, software libre y recursos abiertos para fortalecer capacidades analíticas y de investigación en estudiantes.
-2.  **Apoyo a la sociedad y al Estado**
     -   Generación de herramientas estadísticas y mapas de riesgo que sirven para asesoría en políticas públicas y toma de decisiones en gestión ambiental.
-3.  **Fomentar la interdisciplinariedad y la cooperación**
+-   **Fomentar la interdisciplinariedad y la cooperación**
     -   Vinculación de estudiantes y grupos de investigación con proyectos interinstitucionales y redes académicas internacionales en estadística aplicada y medio ambiente.
 
 ## Bibliografía
