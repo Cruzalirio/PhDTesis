@@ -21,7 +21,7 @@ bibliography: references.bib
 
 # Bloque 1: Clase para pregrado
 
-# Introducción a la autocorrelación
+## Introducción a la autocorrelación
 
 Concepto: la autocorrelación refleja que valores cercanos espacial o temporalmente tienden a ser similares.
 
@@ -105,7 +105,7 @@ p2 <- p2 +ggspatial::annotation_scale(
 plot_grid(p1, p2, labels = c('A', 'B'), label_size = 12)
 ```
 
-# Autoregresión temporal vs espacial
+## Autoregresión temporal vs espacial
 
 | Aspecto | AR temporal | AR espacial |
 |------------------------|------------------------|------------------------|
@@ -115,7 +115,7 @@ plot_grid(p1, p2, labels = c('A', 'B'), label_size = 12)
 | Interpretación | Persistencia temporal | Dependencia entre ubicaciones |
 | Parámetros estructurales | Elección de $p$ | Elección de $w_{ij}$ |
 
-# Matriz de pesos $\mathbf{W}$
+## Matriz de pesos $\mathbf{W}$
 
 $$
 \mathbf{W}=\begin{pmatrix}
@@ -139,7 +139,7 @@ Define qué observaciones son "vecinas". Algunos ejemplos pueden ser:
 Normalización: $\sum_{i=1}^n w_{ij}=1$ facilita interpretación de \\(\\rho\\)
 :::
 
-# Modelo SAR básico
+## Modelo SAR básico
 
 $$
 \mathbf{y} = \rho \pmb{W} \mathbf{y} + \mathbf{X}\boldsymbol{\beta} +\boldsymbol{\epsilon}
@@ -163,7 +163,7 @@ $$ \mathbf{y}  = \mathbf{A}^{-1}\mathbf{X}\boldsymbol{\beta} +\mathbf{A}^{-1}\bo
 Demuestra que si $\vert \rho \vert<1$ entonces $\mathbf{A}^{-1}=\sum_{j=0}^\infty \rho^j\mathbf{W}^j$
 :::
 
-# Estimación
+## Estimación
 
 Para obtener la función de verosimilitud:
 
@@ -183,7 +183,7 @@ Para obtener la función de verosimilitud:
     \frac{\partial{\ell}}{\partial\boldsymbol{\beta}}=\pmb{\epsilon}^{\top}\mathbf{X}, \; \frac{\partial{\ell}}{\partial\rho}=-\mbox{tr} (\mathbf{A}^{-1} \mathbf{W})+\pmb{\epsilon}^{\top}\mathbf{W} \mathbf{y}
     $$
 
-# Estimación
+## Estimación
 
 ::: callout-tip
 ## OLS
@@ -210,16 +210,16 @@ Para estimar $\rho$ no se tiene una solución exacta, pero se puede obtar por do
 Demuestra $\mathcal{I}_{{\rho}{\rho}}$ está bien calculada, además que es positiva.
 :::
 
-# Propiedades de los estimadores
+## Propiedades de los estimadores
 
 ::: callout-note
 ## MLE
 
--   Los estimadores obtenidos por máxima verosimilitud son asintoticamente normales.[@theoryo1998]. [@spatialreg]
+-   Los estimadores obtenidos por máxima verosimilitud son asintoticamente insesgados, consistentes y normales su los supuestos son ciertos[@theoryo1998]. [@spatialreg]
 
--   Sí el supuesto de normalidad no se cumple, [@lee2004] demuestra que aún siguen siendo normales.
+-   Sí el supuesto de normalidad no se cumple, [@lee2004] demuestra que aún siguen siendo normales, pero su varianza asintotica cambia.
 
--   Sí el supuesto de homocedasticidad no se cumple, [@kelejian2010] lo soluciona.
+-   Sí el supuesto de homocedasticidad no se cumple, [@kelejian2010] encuentra un estimador robusto con mejor desempeño que el OLS usual. [@sphet]
 
 -   Sí se quiere modelar la varianza, [@toloza-delgado2025] permite estimar los componentes de varianza. [@spatemR]
 :::
@@ -307,7 +307,7 @@ Modelos Estadísticos y de Aprendizaje Automático para datos Espacio-Temporales
 -   Importancia en análisis de datos georreferenciados. Manejo de mapas en R, Python y GIS.
 :::
 
-# Modelos estadísticos
+## Modelos estadísticos
 
 ::: callout-important
 ## Espaciales
@@ -326,7 +326,7 @@ Modelos Estadísticos y de Aprendizaje Automático para datos Espacio-Temporales
 -   Estructuras de autocorrelación temporal, ACF y PACF.
 :::
 
-# Modelos estadísticos
+## Modelos estadísticos
 
 ::: callout-tip
 ## Espacio-temporales
@@ -337,7 +337,7 @@ Modelos Estadísticos y de Aprendizaje Automático para datos Espacio-Temporales
 -   **GEE espaciales y semiparamétricos:** para estructuras de correlación complejas
 :::
 
-# Machine Learning
+## Machine Learning
 
 ::: callout-tip
 -   **Métodos clásicos adaptados:**
@@ -347,7 +347,7 @@ Modelos Estadísticos y de Aprendizaje Automático para datos Espacio-Temporales
     -   **Spatio-Temporal Deep Learning:** combina redes recurrentes y convolucionales para predicción de series geoespaciales
 :::
 
-# Evaluación del curso
+## Evaluación del curso
 
 ::: callout-important
 ## Evaluaciones presenciales
@@ -370,7 +370,7 @@ Modelos Estadísticos y de Aprendizaje Automático para datos Espacio-Temporales
     -   Análisis reproducible, predicciones y visualización (mapas de riesgo)
 :::
 
-# Bibliografía clave
+## Bibliografía clave
 
 -   Anselin, L. (1988). *Spatial Econometrics: Methods and Models.*
 -   Cressie, N. (1993). *Statistics for Spatial Data.*
