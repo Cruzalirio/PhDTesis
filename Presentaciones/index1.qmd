@@ -108,7 +108,7 @@ plot_grid(p1, p2, labels = c('A', 'B'), label_size = 12)
 # Autoregresión temporal vs espacial
 
 | Aspecto | AR temporal | AR espacial |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Variable dependiente | $y_t$ | $y_i$ |
 | Dependencia | Tiempos anteriores: $y_{t-1}, \ldots, y_{1}$ | Vecinos $y_1, \ldots, y_{i-1}, y_{i+1}, \ldots, y_n$ |
 | Fórmula básica | $y_t = \sum_{j=1}^p \phi_j y_{t-j} + \epsilon_t$ | $y_i = \rho\sum_{j=1}^n w_{ij}\times y_j + \epsilon_j$ |
