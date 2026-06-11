@@ -24,7 +24,7 @@ bibliography: references.bib
 ::: callout-note
 # Nelson Alirio Cruz Gutierrez
 
--   Area: Estadística e Investigación Operativa
+-   Área: Estadística e Investigación Operativa
 
 -   Perfil: Investigación, Docencia, Extensión e Internacionalización
 :::
@@ -46,7 +46,7 @@ bibliography: references.bib
 ## Investigación en diseños experimentales
 
 ::: callout-note
--   Tesis de Maestría en Estadística: Diseño de experimentos cross-over para datos de conteo.
+-   Tesis de Maestría en Estadística: Diseño de experimentos crossover para datos de conteo.
 
 -   Tesis de Doctorado en Estadística: Analysis of crossover designs with repeated measurements using generalized estimating equations.
 :::
@@ -65,7 +65,11 @@ bibliography: references.bib
 
 ## Paquete de R
 
-<iframe src="https://cran.r-project.org/web/packages/CrossCarry/index.html" width="100%" height="400px"></iframe></iframe>
+<iframe src="https://cran.r-project.org/web/packages/CrossCarry/index.html" width="100%" height="400px">
+
+</iframe>
+
+</iframe>
 
 ::: callout-tip
 # Internacionalización
@@ -84,10 +88,14 @@ bibliography: references.bib
 
 -   @azcarate-romero2025, Q2 en Estudios Urbanos (Scopus y JCR)
 
--   @miro2024data, Capítulo de libro en un congreso, Q3 en Ciencias de la computación (SCOPUS)
+-   @miro2024data, Capítulo de libro en congreso, Q3 en Ciencias de la computación (SCOPUS)
 :::
 
-<iframe src="https://cran.r-project.org/web/packages/spatemR/index.html" width="100%" height="250px"></iframe></iframe>
+<iframe src="https://cran.r-project.org/web/packages/spatemR/index.html" width="100%" height="250px">
+
+</iframe>
+
+</iframe>
 
 ## Otros trabajos
 
@@ -108,7 +116,7 @@ bibliography: references.bib
 ::: callout-note
 # Docencia
 
--   422 horas de clase entre 2024 y 2025 de Estadística en grados de Biología, Matemáticas, Ingeniería Telemática, Ingeniería Electrónica Industrial y Automática, Medicina
+-   422 horas de clase entre 2024 y 2025 de Estadística en grados de Biología, Matemáticas, Ingeniería Telemática, Ingeniería Electrónica Industrial y Automática, Medicina.
 
 -   36 horas de clase en Master de Nutrigenómica.
 
@@ -118,7 +126,7 @@ bibliography: references.bib
 ::: callout-important
 # Logros
 
--   Evaluación docente por encima de 7.5 en todas las asignaturas.
+-   Evaluación docente por encima de 7.5/10 en todas las asignaturas.
 
 -   Material docente creado para las asignaturas: Grado: [Farmacia](https://cruzalirio.github.io/Farmacia/), [Enfermería](https://github.com/Cruzalirio/Unal-Enfermeria-/tree/main), [Biología](https://aprender-uib.github.io/MatesII/). Master: [Statistics Applied to Nutrigenomics](https://cruzalirio.github.io/Nutrigenomics/).
 
@@ -196,7 +204,7 @@ bibliography: references.bib
 ::: callout-tip
 ## Contratos profesionales
 
--   Consultor estadístico y experto tecnológico en el Instituto Colombiano para la Evaluación de la Eduación (ICFES) durante 21 meses entre 2021 y 2022.
+-   Consultor estadístico y experto tecnológico en el Instituto Colombiano para la Evaluación de la Educación (ICFES) durante 21 meses entre 2021 y 2022.
 
 -   Consultor Análitico y experto en Estadística en Cala Analytics durante 8 meses.
 :::
@@ -215,7 +223,11 @@ bibliography: references.bib
 -   Comité asesor de Estadística de las Islas Baleares desde 2024.
 :::
 
-<iframe src="https://www.uib.es/personal/ABjQ2NTQ2OA/" width="100%" height="300px"></iframe></iframe>
+<iframe src="https://www.uib.es/personal/ABjQ2NTQ2OA/" width="100%" height="300px">
+
+</iframe>
+
+</iframe>
 
 # 5. Otros méritos
 
