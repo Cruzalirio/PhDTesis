@@ -1,6 +1,6 @@
 ---
 title: "Presentación plaza de ayudante doctor"
-subtitle: "Universidad Complutense de Madrid" 
+subtitle: "Universitat de les Illes Balears" 
 author: 
   - name: Nelson Alirio Cruz
     orcid: 0000-0002-7370-5111
