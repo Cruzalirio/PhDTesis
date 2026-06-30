@@ -17,6 +17,7 @@ embed-resources: true
 lang: ES
 editor: visual
 bibliography: references.bib
+csl: apa.csl
 ---
 
 # Introducción
@@ -24,21 +25,21 @@ bibliography: references.bib
 ::: callout-note
 # Nelson Alirio Cruz Gutierrez
 
--   Área: Estadística e Investigación Operativa
+- Área: Estadística e Investigación Operativa
 
--   Perfil: Investigación, Docencia, Extensión e Internacionalización
+- Perfil: Investigación, Docencia, Extensión e Internacionalización
 :::
 
 ::: callout-important
 ## Trayectoria
 
--   Docencia universitaria desde 2014
+- Docencia universitaria desde 2014
 
--   Actividad investigadora desde 2016
+- Actividad investigadora desde 2016
 
--   Actividad profesional desde 2014
+- Actividad profesional desde 2014
 
--   Experiencia en múltiples instituciones internacionales
+- Experiencia en múltiples instituciones internacionales
 :::
 
 # 1. Investigación
@@ -46,21 +47,21 @@ bibliography: references.bib
 ## Investigación en diseños experimentales
 
 ::: callout-note
--   Tesis de Maestría en Estadística: Diseño de experimentos crossover para datos de conteo.
+- Tesis de Maestría en Estadística: Diseño de experimentos crossover para datos de conteo.
 
--   Tesis de Doctorado en Estadística: Analysis of crossover designs with repeated measurements using generalized estimating equations.
+- Tesis de Doctorado en Estadística: Analysis of crossover designs with repeated measurements using generalized estimating equations.
 :::
 
 ::: callout-important
--   @CruzSemi2023, Q1 en Estadística y Probabilidad (Scopus y JCR)
+- @CruzSemi2023, Q1 en Estadística y Probabilidad (Scopus y JCR)
 
--   @cruz2026 , Q1 en Estadística y Probabilidad (Scopus y JCR).
+- @cruz2026 , Q1 en Estadística y Probabilidad (Scopus y JCR).
 
--   @cruz2023correlation, Q2 en Estadística y Probabilidad (Scopus y JCR).
+- @cruz2023correlation, Q2 en Estadística y Probabilidad (Scopus y JCR).
 
--   @cruzanalysis, Q2 en Estadística y Probabilidad (Scopus y JCR).
+- @cruzanalysis, Q2 en Estadística y Probabilidad (Scopus y JCR).
 
--   @cruz2026crosscarry, Q2 en Software (Scopus y JCR)
+- @cruz2026crosscarry, Q2 en Software (Scopus y JCR)
 :::
 
 ## Paquete de R
@@ -74,7 +75,7 @@ bibliography: references.bib
 ::: callout-tip
 # Internacionalización
 
--   @corea2025effects, @corea2026citrus Ambas Q1 en Ciencias Animales y en Ciencias Veterinarias (Scopus y JCR)
+- @corea2025effects, @corea2026citrus Ambas Q1 en Ciencias Animales y en Ciencias Veterinarias (Scopus y JCR)
 :::
 
 ## Investigación en otras Áreas de la Estadística
@@ -82,13 +83,13 @@ bibliography: references.bib
 ::: callout-note
 # Modelos espaciotemporales autorregresivos
 
--   @toloza-delgado2025, Q1 en Estadística y Probabilidad (Scopus y JCR)
+- @toloza-delgado2025, Q1 en Estadística y Probabilidad (Scopus y JCR)
 
--   @Toloza2, Q2-Q3 en Estadística y Probabilidad (Scopus y JCR)
+- @Toloza2, Q2-Q3 en Estadística y Probabilidad (Scopus y JCR)
 
--   @azcarate-romero2025, Q2 en Estudios Urbanos (Scopus y JCR)
+- @azcarate-romero2025, Q2 en Estudios Urbanos (Scopus y JCR)
 
--   @miro2024data, Capítulo de libro en congreso, Q3 en Ciencias de la computación (SCOPUS)
+- @miro2024data, Capítulo de libro en congreso, Q3 en Ciencias de la computación (SCOPUS)
 :::
 
 <iframe src="https://cran.r-project.org/web/packages/spatemR/index.html" width="100%" height="250px">
@@ -102,11 +103,11 @@ bibliography: references.bib
 ::: callout-tip
 # Proyectos de investigación
 
--   Análisis estadístico para experimentos agrícolas en suelos heterogéneos: Una alternativa a los diseños en bloques basada en el concepto de agricultura de precisión. @lizarazo2020effect
+- Análisis estadístico para experimentos agrícolas en suelos heterogéneos: Una alternativa a los diseños en bloques basada en el concepto de agricultura de precisión. @lizarazo2020effect
 
--   Salud mental y cardiovascular de jóvenes a partir de la fortaleza interior: Estudio de aceptabilidad y factibilidad. “Salud mental y cardiovascular de jóvenes a partir de la fortaleza interior: Estudio de aceptabilidad y factibilidad. @Laila2026, @gonzalez2025changes
+- Salud mental y cardiovascular de jóvenes a partir de la fortaleza interior: Estudio de aceptabilidad y factibilidad. “Salud mental y cardiovascular de jóvenes a partir de la fortaleza interior: Estudio de aceptabilidad y factibilidad. @Laila2026, @gonzalez2025changes
 
--   Realizar la encuesta de movilidad que comprende la encuesta origen destino de hogares eodh y la encuesta origen destino de interceptacion eodi, para bogota y los municipios vecinos de su area de influencia y la actualizacion del modelo de transporte de cuatro etapas del area de estudio. @azcarate-romero2025
+- Realizar la encuesta de movilidad que comprende la encuesta origen destino de hogares eodh y la encuesta origen destino de interceptacion eodi, para bogota y los municipios vecinos de su area de influencia y la actualizacion del modelo de transporte de cuatro etapas del area de estudio. @azcarate-romero2025
 :::
 
 # 2. Docencia
@@ -116,23 +117,23 @@ bibliography: references.bib
 ::: callout-note
 # Docencia
 
--   422 horas de clase entre 2024 y 2025 de Estadística en grados de Biología, Matemáticas, Ingeniería Telemática, Ingeniería Electrónica Industrial y Automática, Medicina.
+- 422 horas de clase entre 2024 y 2025 de Estadística en grados de Biología, Matemáticas, Ingeniería Telemática, Ingeniería Electrónica Industrial y Automática, Medicina.
 
--   36 horas de clase en Master de Nutrigenómica.
+- 36 horas de clase en Master de Nutrigenómica.
 
--   Dirección de 6 TFGs del grado de matemáticas, y tribunal en 7 TFGs de matemáticas.
+- Dirección de 6 TFGs del grado de matemáticas, y tribunal en 7 TFGs de matemáticas.
 :::
 
 ::: callout-important
 # Logros
 
--   Evaluación docente por encima de 7.5/10 en todas las asignaturas.
+- Evaluación docente por encima de 7.5/10 en todas las asignaturas.
 
--   Material docente creado para las asignaturas: Grado: [Farmacia](https://cruzalirio.github.io/Farmacia/), [Enfermería](https://github.com/Cruzalirio/Unal-Enfermeria-/tree/main), [Biología](https://aprender-uib.github.io/MatesII/). Master: [Statistics Applied to Nutrigenomics](https://cruzalirio.github.io/Nutrigenomics/).
+- Material docente creado para las asignaturas: Grado: [Farmacia](https://cruzalirio.github.io/Farmacia/), [Enfermería](https://github.com/Cruzalirio/Unal-Enfermeria-/tree/main), [Biología](https://aprender-uib.github.io/MatesII/). Master: [Statistics Applied to Nutrigenomics](https://cruzalirio.github.io/Nutrigenomics/).
 
--   Dos proyectos de Innovación Docente. [Disseny de models i impressió 3D per afavorir la visualització espacial en contextos d’aprenentatge matemàtic realista](https://portalinvestigacio.uib.cat/proyectos/1364254/detalle), [Coordinació docent per a un ensenyament holístic al Grau de Farmàcia.](https://portalinvestigacio.uib.cat/proyectos/1349788/detalle)
+- Dos proyectos de Innovación Docente. [Disseny de models i impressió 3D per afavorir la visualització espacial en contextos d’aprenentatge matemàtic realista](https://portalinvestigacio.uib.cat/proyectos/1364254/detalle), [Coordinació docent per a un ensenyament holístic al Grau de Farmàcia.](https://portalinvestigacio.uib.cat/proyectos/1349788/detalle)
 
--   Docencia en Catalán, Inglés y Castellano.
+- Docencia en Catalán, Inglés y Castellano.
 :::
 
 ## Universidad Nacional de Colombia
@@ -140,21 +141,21 @@ bibliography: references.bib
 ::: callout-note
 # Docencia
 
--   Más de 1600 horas de clase entre 2014 y 2023 de Estadística en grados de Estadística, Física, Matemáticas, Biología, Enfermería, Agronomía, Química, Zootecnia, entre otros.
+- Más de 1600 horas de clase entre 2014 y 2023 de Estadística en grados de Estadística, Física, Matemáticas, Biología, Enfermería, Agronomía, Química, Zootecnia, entre otros.
 
--   124 horas de clase entre 2022 y 2023 de Estadística en Master en Enfermería y en Salud y Seguridad del trabajo.
+- 124 horas de clase entre 2022 y 2023 de Estadística en Master en Enfermería y en Salud y Seguridad del trabajo.
 
--   124 horas de clase entre 2022 y 2023 de Estadística en Doctorado en Enfermería.
+- 124 horas de clase entre 2022 y 2023 de Estadística en Doctorado en Enfermería.
 :::
 
 ::: callout-important
 # Logros
 
--   Evaluación docente por encima de 4 sobre 5 puntos en todas las asignaturas.
+- Evaluación docente por encima de 4 sobre 5 puntos en todas las asignaturas.
 
--   Cursos de Python y R para extensión en la Universidad.
+- Cursos de Python y R para extensión en la Universidad.
 
--   Asesoría Estadística de tesis de Master y de tesis de Doctorado.
+- Asesoría Estadística de tesis de Master y de tesis de Doctorado.
 :::
 
 ## Universidad Central
@@ -162,29 +163,29 @@ bibliography: references.bib
 ::: callout-note
 # Docencia
 
--   Más de 1600 horas de clase entre 2016 a 2023 de Estadística en grados de Matemáticas, Biología, Ingeniería industrial, Ingeniería Química, Mercadología, Publicidad y Comunicción Social.
+- Más de 1600 horas de clase entre 2016 a 2023 de Estadística en grados de Matemáticas, Biología, Ingeniería industrial, Ingeniería Química, Mercadología, Publicidad y Comunicción Social.
 
--   Más de 800 horas de clase Estadística para la Maestría en Analítica de Datos.
+- Más de 800 horas de clase Estadística para la Maestría en Analítica de Datos.
 :::
 
 ::: callout-important
 # Logros
 
--   Coordiné durante un año la Maestría en Analítica de Datos, siendo uno de sus creadores.
+- Coordiné durante un año la Maestría en Analítica de Datos, siendo uno de sus creadores.
 
--   Dirección de 6 TFMs en mi estancia en la Universidad.
+- Dirección de 6 TFMs en mi estancia en la Universidad.
 
--   Análisis de Calidad de programas por medio de encuestas y colección de indicadores.
+- Análisis de Calidad de programas por medio de encuestas y colección de indicadores.
 
--   Materiales docentes: Master: [Aprendizaje de Máquina](https://madcentral.github.io/metodosestadisticos/), [Aprendizaje de máquina](https://drive.google.com/drive/folders/1D2fYj_BEuGXC8m6qQNe56El5H6fx53i5?usp=sharing)
+- Materiales docentes: Master: [Aprendizaje de Máquina](https://madcentral.github.io/metodosestadisticos/), [Aprendizaje de máquina](https://drive.google.com/drive/folders/1D2fYj_BEuGXC8m6qQNe56El5H6fx53i5?usp=sharing)
 :::
 
 ::: callout-tip
 # Otras universidades
 
--   Politécnico Grancolombiano. 36 horas de clase en Especialización en Matemática Aplicada.
+- Politécnico Grancolombiano. 36 horas de clase en Especialización en Matemática Aplicada.
 
--   Universidad de Rosario: 60 horas de clase en Maestría en Matemática Aplicada. Dirección de un TFM en Análisis de Datos.
+- Universidad de Rosario: 60 horas de clase en Maestría en Matemática Aplicada. Dirección de un TFM en Análisis de Datos.
 :::
 
 # 3. Formación y trayectoria profesional
@@ -194,19 +195,19 @@ bibliography: references.bib
 ::: callout-note
 # Doctorado en Ciencias - Estadística
 
--   Desde el año 2017 al año 2022. Grado en 2023.
+- Desde el año 2017 al año 2022. Grado en 2023.
 
--   Beca competitiva predoctoral por la Universidad Nacional de Colombia entre el año 2018 a 2021 (4 años ).
+- Beca competitiva predoctoral por la Universidad Nacional de Colombia entre el año 2018 a 2021 (4 años ).
 
--   Homologado en España por la Universitat de les Illes Balears en 2024.
+- Homologado en España por la Universitat de les Illes Balears en 2024.
 :::
 
 ::: callout-tip
 ## Contratos profesionales
 
--   Consultor estadístico y experto tecnológico en el Instituto Colombiano para la Evaluación de la Educación (ICFES) durante 21 meses entre 2021 y 2022.
+- Consultor estadístico y experto tecnológico en el Instituto Colombiano para la Evaluación de la Educación (ICFES) durante 21 meses entre 2021 y 2022.
 
--   Consultor Análitico y experto en Estadística en Cala Analytics durante 8 meses.
+- Consultor Análitico y experto en Estadística en Cala Analytics durante 8 meses.
 :::
 
 # 4. Internacionalización
@@ -216,11 +217,11 @@ bibliography: references.bib
 ::: callout-important
 # Logros
 
--   Estancia de Docente Visitante en la Universitat de les Illes Balears desde 2024 hasta 2026.
+- Estancia de Docente Visitante en la Universitat de les Illes Balears desde 2024 hasta 2026.
 
--   Fundador del grupo MoDAE en la Universidad, y 7 artículos publicados durante mi estancia en esta universidad.
+- Fundador del grupo MoDAE en la Universidad, y 7 artículos publicados durante mi estancia en esta universidad.
 
--   Comité asesor de Estadística de las Islas Baleares desde 2024.
+- Comité asesor de Estadística de las Islas Baleares desde 2024.
 :::
 
 <iframe src="https://www.uib.es/personal/ABjQ2NTQ2OA/" width="100%" height="300px">
@@ -234,27 +235,27 @@ bibliography: references.bib
 ::: callout-note
 # Maestría en Ciencias - Estadística
 
--   Desde el año 2014 al año 2015. Grado en 2016.
+- Desde el año 2014 al año 2015. Grado en 2016.
 
--   Beca competitiva predoctoral por la Universidad Nacional de Colombia entre el año 2014 a 2015 (2 años ).
+- Beca competitiva predoctoral por la Universidad Nacional de Colombia entre el año 2014 a 2015 (2 años ).
 
--   Artículo de investigación heredado de esa tesis @cruzanalysis.
+- Artículo de investigación heredado de esa tesis @cruzanalysis.
 :::
 
 ::: callout-tip
 # Grado en Ciencias - Estadística
 
--   Desde el año 2009 al año 2013. Grado en 2014.
+- Desde el año 2009 al año 2013. Grado en 2014.
 :::
 
 ::: callout-important
 # Coordinador de la Maestría en Analítica de Datos
 
--   Desde el 20 de enero de 2020 hasta el 18 de diciembre de 2020
+- Desde el 20 de enero de 2020 hasta el 18 de diciembre de 2020
 
--   Programación de asignaturas, acompañamiento de estudiantes, contratación de docentes.
+- Programación de asignaturas, acompañamiento de estudiantes, contratación de docentes.
 
--   Gestión de aulas, de cronogramas y de laboratorios de sistemas.
+- Gestión de aulas, de cronogramas y de laboratorios de sistemas.
 :::
 
 ## Bibliografía
